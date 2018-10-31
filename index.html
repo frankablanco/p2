@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Vamo a Calmarno</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="./codigo.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<style>
+		body {
+			font-family: 'Open Sans', sans-serif;
+		}
+
+		ul, li {
+			list-style: none;
+			margin: 0;
+		}
+
+		#pokedex {
+			margin-top: 50px;
+			padding: 30px;
+			width: 600px;
+			margin: auto;
+			background-color: red;
+			color: #ffffff;
+		}
+	</style>
+</head>
+<body>
+	<div id="pokedex">
+		<ul>
+			<li id="pokemon_name">Nombre: <span id="pk_name"></span></li>
+			<li id="pokemon_types">Tipo: <span id="pk_types"></span></li>
+			<li id="pokemon_weight">Peso: <span id="pk_weight"></span></li>
+			<li id="pokemon_image">Imagen: <img class="pokemon-image"></li>
+			<li id="pokemon_experience">Base de Experiencia: <span id="pk_experience"></span></li>
+			<li id="pokemon_ability1">Habilidad 1: <span id="pk_ability1"></span></li>
+			<li id="pokemon_ability2">Habilidad 2: <span id="pk_ability2"></span></li>
+		</ul>
+	</div>
+</body>
+</html>
